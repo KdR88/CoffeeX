@@ -8,5 +8,10 @@ namespace CoffeeX
         {
             InitializeComponent();
         }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("hallo");
+        }
     }
 }
